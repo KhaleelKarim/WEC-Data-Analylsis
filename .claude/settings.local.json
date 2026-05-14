@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -v '^\\\\.$')",
+      "Bash(grep -v '^\\\\.\\\\.$')",
+      "Bash(test -f /home/kkarim/projects/energy/notebooks/*.ipynb)",
+      "Bash(test -f /home/kkarim/projects/energy/*)"
+    ]
+  }
+}
