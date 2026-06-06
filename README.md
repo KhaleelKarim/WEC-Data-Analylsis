@@ -2,15 +2,15 @@
 
 ## Overview
 
-This project develops machine learning surrogate models to predict the power output of Wave Energy Converter (WEC) farms using turbine layout information. The goal is to replace computationally expensive simulations with fast predictive models that can estimate farm performance from geometric layout features.
+This project develops machine learning surrogate models to predict the power output of Wave Energy Converter (WEC) farms using turbine layout information. The goal is to replace the computationally expensive simulations with fast predictive models that can estimate farm performance from the geometric layout features.
 
-The project evaluates multiple machine learning approaches, explores feature engineering techniques, analyzes interaction efficiency (qW), and compares dimensionality reduction using PCA.
+The project examines multiple machine learning approaches, explores feature engineering techniques, analyzes interaction efficiency (qW), and compares dimensionality reduction using PCA.
 
 ---
 
 ## Dataset
 
-The analysis uses four WEC farm datasets:
+The analysis uses four WEC farm datasets from two locations:
 
 * Sydney 49
 * Sydney 100
@@ -101,7 +101,7 @@ These features summarize the overall farm geometry and turbine spacing.
 
 ## Conclusion
 
-The results show that engineered geometry features combined with Hist Gradient Boosting provide an accurate and reliable surrogate modeling approach for predicting WEC farm performance. The project also highlights the importance of turbine spacing and the overall farm layout in determining both power production and interaction efficiency.
+The results from the project show how that engineered geometry features combined with Hist Gradient Boosting provide an accurate and reliable surrogate modeling approach for predicting WEC farm performance. The project also highlights the importance of turbine spacing and the overall farm layout in determining both power production and interaction efficiency.
 
 ---
 
